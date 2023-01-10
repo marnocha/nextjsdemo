@@ -23,7 +23,7 @@ export default function Home({ data }: { data: { time: string } }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <h1 className='text-3xl font-bold underline'>hello world v2! The time is {serverData}</h1>
+        <h1 className='text-3xl font-bold underline'>hello world v3! The time is {serverData}</h1>
         <h2>{time &&
                     `The time is ${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`}</h2>
       </div>
